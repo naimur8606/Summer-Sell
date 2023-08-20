@@ -40,4 +40,5 @@ document.getElementById("apply-btn").addEventListener("click",function(){
         document.getElementById("discount").innerText = Math.floor((totalPrice/100)*20);
         document.getElementById("total").innerText = Math.ceil(totalPrice - (totalPrice/100)*20);
     }
+    document.getElementById("coupon").value="";
 })
