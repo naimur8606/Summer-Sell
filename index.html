@@ -10,24 +10,33 @@
 </head>
 <body class="bg-[#F8F8F8]">
     <header>
+
+        <!-- banner section start -->
         <div class="banner py-4 px-3 lg:h-[100vh] bg-[#F9F6E2] flex flex-col-reverse lg:flex-row justify-center items-center">
+            <!-- banner content -->
             <div class="text-[#111] text-center w-full lg:w-1/2">
-                <h4 class="font-medium text-3xl">---SALE FEVER---</h4>
-                <h2 class="font-bold text-6xl my-12">Purchase TK 200 or above & get <span class="text-[#E527B2]">20% off</span></h2>
-                <h5 class="text-2xl inline font-medium">Use Promo Code</h5>
+                <h4 class="font-medium text-2xl md:text-3xl">---SALE FEVER---</h4>
+                <h2 class="font-bold text-5xl md:text-6xl my-12">Purchase TK 200 or above & get <span class="text-[#E527B2]">20% off</span></h2>
+                <h5 class="text-xl md:text-2xl inline font-medium">Use Promo Code</h5>
                 <button class="bg-[#E527B2] text-white text-2xl font-medium rounded py-3 px-6 mb-5">SELL200</button>
             </div>
+            <!-- banner image -->
             <div class="lg:w-[40%]">
                 <img class="w-full" src="./images/Summer 1.png" alt="">
             </div>
         </div>
+        <!-- banner ended -->
     </header>
     <main>
-        <article class="product-section mt-14 mx-auto w-11/12 gap-5 flex flex-col-reverse lg:flex-row">
-            <section class="Kitchenware-section lg:w-[73%]">
-                <div>
+        <article class=" mt-14 pb-5 mx-auto w-11/12 gap-5 flex flex-col-reverse lg:flex-row">
+            
+            <!-- product section start -->
+            <section class="product-section lg:w-[73%]">
+                <!-- Kitchenware-section start -->
+                <div class="Kitchenware-section">
                     <h2 class="text-[#111] text-4xl font-semibold mb-5">Kitchenware</h2>
                     <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                        <!-- product1 -->
                         <div onclick="titleAppendAndTotatAdd('product1-title','product1-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod1.png" alt="">
                             <div class="text-center mt-5">
@@ -42,6 +51,7 @@
                                 <p class="text-[#D2D2D2]"><span id="product1-price">39.00</span> TK</p>
                             </div>
                         </div>
+                        <!-- product2 -->
                         <div onclick="titleAppendAndTotatAdd('product2-title','product2-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod2.png" alt="">
                             <div class="text-center mt-5">
@@ -56,6 +66,7 @@
                                 <p class="text-[#D2D2D2]"><span id="product2-price">25.00</span> TK</p>
                             </div>
                         </div>
+                        <!-- product3 -->
                         <div onclick="titleAppendAndTotatAdd('product3-title','product3-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod3.png" alt="">
                             <div class="text-center mt-5">
@@ -73,10 +84,11 @@
                     </div>
                 </div>
 
-                
+                <!-- Sportswear section -->
                 <div class="mt-12">
                     <h2 class="text-[#111] text-4xl font-semibold mb-5">Sportswear</h2>
                     <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                        <!-- product4 -->
                         <div onclick="titleAppendAndTotatAdd('product4-title','product4-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod4.png" alt="">
                             <div class="text-center mt-5">
@@ -91,6 +103,7 @@
                                 <p class="text-[#D2D2D2]"><span id="product4-price">49.00</span> TK</p>
                             </div>
                         </div>
+                        <!-- product5 -->
                         <div onclick="titleAppendAndTotatAdd('product5-title','product5-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod5.png" alt="">
                             <div class="text-center mt-5">
@@ -105,6 +118,7 @@
                                 <p class="text-[#D2D2D2]"><span id="product5-price">69.00</span> TK</p>
                             </div>
                         </div>
+                        <!-- product6 -->
                         <div onclick="titleAppendAndTotatAdd('product6-title','product6-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod6.png" alt="">
                             <div class="text-center mt-5">
@@ -122,9 +136,11 @@
                     </div>
                 </div>
 
+                <!-- Furniture section -->
                 <div class="mt-12">
                     <h2 class="text-[#111] text-4xl font-semibold mb-5">Furniture</h2>
                     <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                        <!-- product7 -->
                         <div onclick="titleAppendAndTotatAdd('product7-title','product7-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod7.png" alt="">
                             <div class="text-center mt-5">
@@ -139,6 +155,7 @@
                                 <p class="text-[#D2D2D2]"><span id="product7-price">185.00</span> TK</p>
                             </div>
                         </div>
+                        <!-- product8 -->
                         <div onclick="titleAppendAndTotatAdd('product8-title','product8-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod8.png" alt="">
                             <div class="text-center mt-5">
@@ -153,6 +170,7 @@
                                 <p class="text-[#D2D2D2]"><span id="product8-price">299.00</span> TK</p>
                             </div>
                         </div>
+                        <!-- product9 -->
                         <div onclick="titleAppendAndTotatAdd('product9-title','product9-price')" class="bg-white p-5 rounded">
                             <img class="bg-[#F3F3F3] w-full md:w-auto mx-auto py-5 px-14 h-[180px] rounded" src="./images/prod9.png" alt="">
                             <div class="text-center mt-5">
@@ -169,21 +187,27 @@
                         </div>
                     </div>
                 </div>
-
-
             </section>
-                <section class="card-section lg:w-[25%] mt-[60px]">
+            <!-- product section end -->
+
+            <!-- coupon section start -->
+            <section class="card-section lg:w-[25%] mt-[60px]">
+                    <!-- discount part -->
                     <div class="bg-white p-5 rounded">
                         <h3 class="text-2xl text-[#111] mb-4 font-medium">Have coupon?</h3>
                         <div class="flex">
-                            <input id="coupon" class=" border rounded-l-xl w-[70%]" type="text" name="" id="">
+                            <input id="coupon" class="pl-3 border rounded-l-xl w-[70%]" type="text" name="" id="" placeholder="Enter coupon code">
                             <button id="apply-btn" class="btn hover:bg-[#e527b2af] bg-[#E527B2] w-[25%] rounded-l-none text-white" disabled>Apply</button>
                         </div>
                     </div>
+                    <!-- product and price list -->
                     <div class="bg-white p-5 rounded mt-5">
+                        <h2 class="text-2xl font-bold mb-6">Selected Items</h2>
+                        <!-- product list -->
                         <ol id="selected-product">
 
                         </ol><hr class="my-5">
+                        <!-- price description -->
                         <div>
                             <p class="text-2xl text-[#111] font-medium">Total price: <span class="text-[#D2D2D2]"><span id="total-price"> 00 </span> TK</span></p>
                             <p class="text-2xl text-[#111] font-medium">Discount : <span class="text-[#D2D2D2]"><span id="discount"> 00 </span> TK</span></p>
@@ -204,10 +228,17 @@
                         </form>
                         </dialog>
                     </div>
-                </section>
+            </section>
         </article>
     </main>
 
+    <!-- footer  -->
+    <footer class="text-center bg-[#dfeffe4d] py-10 spy-5">
+        <h3 class="text-[#1E2125] text-4xl font-bold">Summer <span class="text-[#E527B2]">Sell</span></h3>
+        <p class="font-semiboldbold text-[#3c3e41]">Copyright &#169; SummerSell2023</p>
+    </footer>
+
+    <!-- script file -->
     <script src="./script.js"></script>
 </body>
 </html>
