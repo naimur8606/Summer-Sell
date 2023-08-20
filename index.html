@@ -176,7 +176,8 @@
                     <div class="bg-white p-5 rounded">
                         <h3 class="text-2xl text-[#111] mb-4 font-medium">Have coupon?</h3>
                         <div class="flex">
-                            <input class=" border rounded-l-xl w-[70%]" type="text" name="" id=""><button class="bg-[#E527B2] py-3 w-[25%] rounded-r-xl text-white" for="apply">Apply</button>
+                            <input id="coupon" class=" border rounded-l-xl w-[70%]" type="text" name="" id="">
+                            <button id="apply-btn" class="btn hover:bg-[#e527b2af] bg-[#E527B2] w-[25%] rounded-l-none text-white" disabled>Apply</button>
                         </div>
                     </div>
                     <div class="bg-white p-5 rounded mt-5">
@@ -185,12 +186,12 @@
                         </ol><hr class="my-5">
                         <div>
                             <p class="text-2xl text-[#111] font-medium">Total price: <span class="text-[#D2D2D2]"><span id="total-price"> 00 </span> TK</span></p>
-                            <p class="text-2xl text-[#111] font-medium">Discount : <span class="text-[#D2D2D2]"><span> 00 </span> TK</span></p>
+                            <p class="text-2xl text-[#111] font-medium">Discount : <span class="text-[#D2D2D2]"><span id="discount"> 00 </span> TK</span></p>
                             <p class="text-2xl text-[#111] font-medium">Total: <span class="text-[#D2D2D2]"><span id="total"> 00 </span> TK</span></p>
                         </div><hr class="my-5">
 
                         <!-- Open the modal using ID.showModal() method -->
-                        <button class="btn hover:bg-[#e527b2af] bg-[#E527B2] w-full rounded text-xl text-white" onclick="my_modal_5.showModal()">Make Purchase</button>
+                        <button id="purchase-btn" class="btn hover:bg-[#e527b2af] bg-[#E527B2] w-full rounded text-xl text-white" onclick="my_modal_5.showModal()" disabled>Make Purchase</button>
                         <dialog id="my_modal_5" class="modal modal-bottom text-center sm:modal-middle">
                         <form method="dialog" class="modal-box">
                             <img class="mx-auto" src="./images/congo.png" alt="">
