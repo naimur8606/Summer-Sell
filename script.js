@@ -42,3 +42,7 @@ document.getElementById("apply-btn").addEventListener("click",function(){
     }
     document.getElementById("coupon").value="";
 })
+
+document.getElementById("home").addEventListener("click",function(){
+    location.reload()
+})
