@@ -40,9 +40,12 @@ document.getElementById("apply-btn").addEventListener("click",function(){
         document.getElementById("discount").innerText = Math.floor((totalPrice/100)*20);
         document.getElementById("total").innerText = Math.ceil(totalPrice - (totalPrice/100)*20);
     }
+    else{
+        alert("Enter the right Coupon Code")
+    }
     document.getElementById("coupon").value="";
 })
 
 document.getElementById("home").addEventListener("click",function(){
-    location.reload()
+    location.reload();
 })
